@@ -1,3 +1,75 @@
-h1 {
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/***********HEADER*****************/
+header{
+    color: white;
+    background-color: #1F2937;
+    padding: 50px 250px;
+}
+
+.logo-and-links{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.header-text-and-image{
+    display: flex;
+    max-height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.header-pic{
+    width: 30%;
+}
+/********************************/
+
+/*****RANDOM INFORMATION********/
+.random-info-container h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.random-items-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.random-item{
+    width: 150px;
+}
+
+.random-item p{
+    text-align: center;
+}
+
+/********************************/
+
+/*************QUOTE**************/
+
+.quote-container{
+    
 }

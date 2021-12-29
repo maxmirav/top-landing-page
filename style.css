@@ -69,6 +69,7 @@ header button{
     border-radius: 5px;
     font-size: 18px;
     color: #F9FAF8;
+    cursor: pointer;
 }
 /********************************/
 
@@ -154,6 +155,7 @@ blockquote{
     padding: 10px 20px;
     color: white;
     font-size: 18px;
+    cursor: pointer;
 
 }
 /********************************/

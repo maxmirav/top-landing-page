@@ -18,6 +18,21 @@ header{
     padding: 50px 250px;
 }
 
+header h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-text-and-image h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-text p,
+li{
+    font-size: 18px;
+}
+
 .logo-and-links{
     display: flex;
     justify-content: space-between;
@@ -27,7 +42,7 @@ header{
 
 ul{
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 li{
@@ -45,25 +60,46 @@ li{
 .header-pic{
     width: 30%;
 }
+
+header button{
+    background-color: #3882F6;
+    padding: 8px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
 /********************************/
 
 /*****RANDOM INFORMATION********/
 .random-info-container h2{
+    margin-top: 25px;
     text-align: center;
     padding-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .random-items-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-bottom: 50px;
+    gap: 80px;
 }
 
 .random-item{
     width: 150px;
 }
 
+.random-item img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+}
+
 .random-item p{
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -76,10 +112,12 @@ li{
     padding: 50px 0;
     display: flex;
     justify-content: center;
+    font-size: 36px;
 }
 
 blockquote{
-    max-width: 500px;
+    max-width: 900px;
+    font-weight: lighter;
 }
 
 /********************************/
